@@ -1,0 +1,20 @@
+[keyboard]
+bindings = [
+  # Ctrl+C = Copy (GERINGE Priorität für SIGINT)
+  { key = "C", mods = "Control", action = "Copy", mode = "AppCursor" },
+  
+  # Ctrl+Shift+C Fallback
+  { key = "C", mods = "Control|Shift", action = "Copy" },
+  
+  # Ctrl+V = Paste
+  { key = "V", mods = "Control", action = "Paste" },
+]
+
+[window]
+padding.x = 10
+padding.y = 10
+
+[font]
+normal.family = "monospace"  # Oder deine Font
+size = 16.0
+
